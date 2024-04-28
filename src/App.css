@@ -1,0 +1,94 @@
+.heroPager {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 80px;
+}
+
+@media (width<786px) {
+  .heroPager {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 500px;
+  }
+  .butty {
+    margin: auto;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .audandrest {
+    margin-top: 0;
+  }
+}
+
+.heroPc {
+  height: 80vh;
+}
+
+@media (width<786px) {
+  .heroPc {
+    display: none;
+  }
+  .hemob {
+    display: flex;
+  }
+}
+
+.audandrest {
+  margin-top: 90px;
+}
+.datap {
+  object-fit: none;
+}
+.audiop {
+  object-fit: none;
+}
+.meetp {
+  object-fit: none;
+}
+.makerp {
+  object-fit: none;
+}
+
+.butty {
+  width: 30%;
+}
+
+.leftside{
+  margin-top: 50px;
+}
+.ajust{
+right: -40px;
+margin-top: 10px;
+}
+.comp{
+  left: -20px;
+/* margin-top: 10px; */
+}
+
+.todo{
+height: 10px;
+}
+.calender{
+  height: 10px;
+}
+.reminde{
+  height: 10px;
+}
+.plann{
+  height: 10px;
+}
+.midl{
+  gap: 20px;
+}
+
+.feat{
+  top: 8px;
+}
+.com{
+  top: 8px;
+}
+
+
